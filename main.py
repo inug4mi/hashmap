@@ -10,7 +10,8 @@ def my_solution_t1(capacity):
       #buckets = p >= n
       # a = [1, p-1]
       # b = [0, p-1]
-      # is hash function if: 
+      # is hash function if: H(x) = ((ax+b)modp)modn
+      # distribution is equaly randomized as 1/capacity
       self._capacity = capacity
       self._buckets = self.get_next_prime(capacity)                                           
       self._a = randint(1,self._buckets-1)                                     
