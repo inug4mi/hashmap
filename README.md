@@ -1,4 +1,4 @@
-# CoreHashMap
+# Hashmap
 Hash map made from scratch
 
 ![hashmappteory1](https://github.com/CodingWithNoDirection/CoreHashMap/assets/62967614/90e9d537-629a-4a64-be95-64b3031d2423)
